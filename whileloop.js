@@ -35,7 +35,16 @@ monthNumber++;
 //   monthNumber++;
 // }
 
-//FOR LOOP count down from 10 t0 1
-for (var numm = 10; numm; numm--){
-  console.log(numm);
+//HOOVERDAM.JS
+var currentGen = 1;
+var totalGen = 19;
+var totalMWS = 62;
+var totalMW = 62;
+
+while (currentGen <= 4) {
+console.log("Generator #" + currentGen + " is on, adding " + totalMWS + "MW, for a total of " + totalMW + "MW!")
+
+
+currentGen++;
+totalMW*=2
 }

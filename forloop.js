@@ -15,3 +15,20 @@ for (var numSheep = 4; monthNumber <= monthsToPrint; numSheep*=4){
 //   numSheep = numSheep * 4;
 //   console.log("There will be " + numSheep + " sheep after " + monthNumber + " month(s)!");
 // }
+
+// //HOOVERDAM.JS WHILE AND FOR LOOP TOGETHER
+var currentGen = 1;
+var totalGen = 19;
+var totalMW = 0;
+
+while (currentGen <= 4) {
+totalMW+=62;
+console.log("Generator #" + currentGen + " is on, adding " + totalMW + "MW, for a total of " + totalMW + "MW!")
+currentGen++;
+
+}
+
+for (currentGen = 5; currentGen <= totalGen; currentGen++){
+totalMW +=124;
+console.log("Generator #" + currentGen + " is on, adding 124MW, for a total of " + totalMW + "MW!");
+}
