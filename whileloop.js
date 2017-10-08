@@ -19,10 +19,10 @@ var monthsToPrint = 12;
 while (monthNumber < 13) {
 console.log("There will be " + numSheep
 + " sheep after " + monthNumber + " month(s)!");
-
 numSheep*=4
 monthNumber++;
 }
+
 
 //CODE ACADEMY SOLUTION WHILE LOOP
 // var numSheep = 4;
@@ -47,4 +47,12 @@ console.log("Generator #" + currentGen + " is on, adding " + totalMWS + "MW, for
 
 currentGen++;
 totalMW*=2
+}
+
+//countdown.js
+var num = 10;
+while (num > 0) {
+if (num%2==0)
+console.log(num)
+  num--
 }
